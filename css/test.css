@@ -1,0 +1,16 @@
+.test{
+    height: 30px;
+    width: 600px;
+    border: 3px solid skyblue;
+    background-color: #fff;
+    margin: 100px auto;
+}
+.pro{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 3px solid rgb(0, 0, 0);
+}

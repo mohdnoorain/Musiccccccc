@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/test.css">
+</head>
+<body>
+    <div class="test">
+        <div class="pro"></div>
+    </div>
+    <script>
+        const test = document.querySelector('.test');
+        const pro = document.querySelector('.pro');
+        test.addEventListener('click', f );
+        function f (ev){
+            console.log(ev.offsetX);
+            console.log(ev.offsetY);
+            pro.style.left = (ev.offsetX - 10)+"px";
+        }
+    </script>
+</body>
+</html>
